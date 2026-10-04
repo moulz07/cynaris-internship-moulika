@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Sun Oct  4 07:14:17 2026 as: /usr/lib/nmap/nmap --privileged -p 25 --script smtp-commands -oN checkpoint2_smtp.txt 192.168.56.101
+Nmap scan report for 192.168.56.101
+Host is up (0.0015s latency).
+
+PORT   STATE SERVICE
+25/tcp open  smtp
+|_smtp-commands: metasploitable.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN
+MAC Address: 08:00:27:60:59:D8 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Oct  4 07:14:18 2026 -- 1 IP address (1 host up) scanned in 0.68 seconds

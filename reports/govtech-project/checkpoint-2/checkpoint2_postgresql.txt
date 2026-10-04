@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Sun Oct  4 07:08:57 2026 as: /usr/lib/nmap/nmap --privileged -p 5432 --script banner -oN checkpoint2_postgresql.txt 192.168.56.101
+Nmap scan report for 192.168.56.101
+Host is up (0.0025s latency).
+
+PORT     STATE SERVICE
+5432/tcp open  postgresql
+MAC Address: 08:00:27:60:59:D8 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Oct  4 07:09:08 2026 -- 1 IP address (1 host up) scanned in 10.66 seconds

@@ -1,0 +1,11 @@
+# Nmap 7.99 scan initiated Sun Oct  4 07:12:54 2026 as: /usr/lib/nmap/nmap --privileged -p 53 --script dns-nsid -oN checkpoint2_dns.txt 192.168.56.101
+Nmap scan report for 192.168.56.101
+Host is up (0.0012s latency).
+
+PORT   STATE SERVICE
+53/tcp open  domain
+| dns-nsid: 
+|_  bind.version: 9.4.2
+MAC Address: 08:00:27:60:59:D8 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Oct  4 07:13:02 2026 -- 1 IP address (1 host up) scanned in 8.65 seconds

@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Sun Oct  4 07:16:16 2026 as: /usr/lib/nmap/nmap --privileged -p 80 --script http-vuln-cve2011-3192 -oN checkpoint2_apache_vuln.txt 192.168.56.101
+Nmap scan report for 192.168.56.101
+Host is up (0.0017s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 08:00:27:60:59:D8 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Oct  4 07:16:17 2026 -- 1 IP address (1 host up) scanned in 0.71 seconds

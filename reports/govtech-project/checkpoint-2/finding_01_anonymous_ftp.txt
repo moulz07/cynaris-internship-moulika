@@ -1,0 +1,8 @@
+Finding: Anonymous FTP access enabled
+Target: 192.168.56.101
+Port: 21/tcp
+Service: FTP
+Version: vsftpd 2.3.4
+Evidence: Nmap ftp-anon reported anonymous FTP login allowed (FTP code 230)
+Potential impact: Unauthorized access to files exposed through the FTP service.
+Status: Confirmed in authorized lab environment
